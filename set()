@@ -1,0 +1,12 @@
+# The remove() method removes the specified element from the set.
+languages = {'Python', 'Java', 'C++'}
+
+# remove English from the set
+languages.remove('Python')
+
+
+print(languages)
+
+#>output
+{'C++', 'Java'}
+
