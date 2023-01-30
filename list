@@ -1,0 +1,150 @@
+'''  PYTHON DATATYPES    '''
+
+#  list -> A list is an ordered data structure with elements separated by a comma and enclosed within square brackets
+
+# list.append()
+
+fruits = ['apple', 'bannana', 'manga']
+
+fruits.append('guava')
+
+print(fruits)
+
+#>output
+['apple', 'bannana', 'manga', 'guava']
+
+
+# list.extend()
+
+prime_numbers = [2, 3, 5]
+
+# create another list
+numbers = [1, 4]
+
+# add all elements of prime_numbers to numbers
+numbers.extend(prime_numbers)
+
+print('List after extend():', numbers)
+
+#>output
+List after extend(): [1, 4, 2, 3, 5]
+
+
+#list.insert()
+# create a list of vowels
+vowel = ['a', 'e', 'i', 'u']
+
+# 'o' is inserted at index 3 (4th position)
+vowel.insert(3, 'o')
+
+print('List:', vowel)
+
+#>output
+List: ['a', 'e', 'i', 'o', 'u']
+
+
+
+# list.remove()
+
+# creating list
+random_numbers = [4, 9, 5, 10, 15]
+
+random_numbers.remove(10)
+
+# Updated prime_numbers List
+print('Updated List: ', random_numbers)
+
+#>output
+List: ['a', 'e', 'i', 'o', 'u']
+
+
+
+
+#list.pop([i])
+
+# create a list of random numbers
+random_numbers = [1,6,9,2,3,5,7]
+removed_element = random_numbers.pop(4)
+
+print('Removed Element:', removed_element)
+print('Updated List:', random_numbers)
+
+#>output
+Removed Element: 3
+Updated List: [1, 6, 9, 2, 5, 7]
+
+
+
+#list.clear()
+
+random_numbers = [2, 3, 5, 7, 9, 11]
+random_numbers.clear() # remove  will remove all the elements
+print('List after clear():', random_numbers)
+
+#>output
+List after clear(): []
+
+
+#list.index(x[,start[,end]])
+
+fruits = ['apple', 'bannana', 'peach', 'guava']
+chart = fruits.index('guava')
+print("the index of your fav fruit is ", chart)
+
+#>output
+the index of your fav fruit is  3
+
+
+
+
+
+#list.sort()   sorting the list in ascending order
+
+random_numbers = [11,5,8,9,0, 3, 7, 5, 2]
+
+random_numbers.sort()
+
+print("the sorted list is here ",random_numbers)
+
+#>output
+the sorted list is here  [0, 2, 3, 5, 5, 7, 8, 9, 11]
+
+
+
+#list.reverse()   method reverses the elements of the list.
+random_numbers = [1,2, 3, 5, 7]
+
+random_numbers.reverse()# reverse the order of list elements
+
+
+print('the Reversed List is here :', random_numbers)
+
+#>0utput
+the Reversed List is here : [7, 5, 3, 2,1]
+
+
+#list.copy() method returns a shallow copy of the list.
+
+random_numbers = [2, 3, 5]
+
+numbers = random_numbers.copy()
+
+print('the Copied List is here :', numbers)
+
+#>output
+the Copied List is here : [2, 3, 5]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
