@@ -1,0 +1,8 @@
+The r throws an error if the file does not exist or opens an existing file without truncating it for reading; the file pointer position at the beginning of the file.
+The r+ throws an error if the file does not exist or opens an existing file without truncating it for reading and writing; the file pointer position at the beginning of the file.
+The w creates a new file or truncates an existing file, then opens it for writing; the file pointer position at the beginning of the file.
+The w+ creates a new file or truncates an existing file, then opens it for reading and writing; the file pointer position at the beginning of the file.
+The a creates a new file or opens an existing file for writing; the file pointer position at the end of the file.
+The a+ creates a new file or opens an existing file for reading and writing, and the file pointer position at the end of the file.
+
+
